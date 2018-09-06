@@ -9,9 +9,9 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;
 
-//@SpringBootApplication
+// @SpringBootApplication
 @EnableWebMvc
-@ComponentScan(basePackages = "com.poc.spring.lambda.*")
+@ComponentScan(basePackages = "com.spring.on.aws.lambda.*")
 public class SchoolManagementApplicationConfig {
 
 	@Bean
